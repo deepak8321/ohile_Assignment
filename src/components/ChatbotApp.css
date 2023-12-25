@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #2980b9, #6ab1d7);
+}
+
+.chat-container {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.messages {
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.input-box {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.record-btn,
+.play-btn {
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.record-btn.recording {
+    background-color: #e74c3c;
+}
+
+.record-btn:hover,
+.play-btn:hover {
+    background-color: #27ae60;
+}
+
+.user-message {
+    background-color: #3498db;
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    background-color: #ecf0f1;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}   padding: 8px;
+    border-radius: 5px;
+}
